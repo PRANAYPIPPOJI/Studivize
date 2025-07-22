@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Personalized Roadmap</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f2ff;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #004080;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      color: #0066cc;
+      margin-top: 30px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .btn {
+      display: block;
+      width: 200px;
+      margin: 30px auto 0;
+      text-align: center;
+      background-color: #007bff;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>{{ name }}, here is your personalized roadmap</h1>
+
+   <h3>🎓 Top Universities</h3>
+   <ul>
+     {% for uni in roadmap.universities.splitlines() %}
+       {% if uni.strip() %}
+         <li>
+           {% set parts = uni.split(' - ') %}
+           {% if parts | length == 2 %}
+             <a href="{{ 'https://' + parts[1].replace('https://', '').replace('http://', '') }}"
+                target="_blank"
+                style="color:#007bff; text-decoration: none;">
+                {{ parts[0] }}
+             </a>
+           {% else %}
+             {{ uni }}
+           {% endif %}
+         </li>
+       {% endif %}
+     {% endfor %}
+   </ul>
+
+    <h3>💰 Scholarships</h3>
+    <ul>
+      {% for scholar in roadmap.scholarships.splitlines() %}
+        {% if scholar.strip() %}
+          <li>{{ scholar }}</li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <h3>🛤️ Step-by-Step Roadmap</h3>
+    <ul>
+      {% for step in roadmap.steps.splitlines() %}
+        {% if step.strip() %}
+          <li>{{ step }}</li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+    <a href="/" class="btn">Go Back</a>
+  </div>
+</body>
+</html>
