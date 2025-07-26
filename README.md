@@ -93,6 +93,10 @@ Without your API key, the AI responses will not work.
 Connect on [LinkedIn](https://linkedin.com/in/pranay-pippoji-855979297)
 
 ---
+## 👥 Collaborators
+
+- [Pranay Pippoji](https://github.com/your-username) — AI Integration, Frontend & Backend  
+- [HITHESHBALE](https://github.com/HITHESHBALE) — Research, Design, Testing
 
 ## 📝 License
 
