@@ -22,6 +22,10 @@ All based on your country, GPA, and goals.
 - Clean UI with clear sectioning of results
 
 ---
+STUDIVIZE SCREENSHOTS:
+![Studivize Screenshot](https://github.com/PRANAYPIPPOJI/Studivize/blob/main/Screenshot%202025-07-26%20203309.png?raw=true)
+![Studivize Screenshot]
+
 
 ## 🔧 Technologies Used
 
