@@ -23,8 +23,8 @@ All based on your country, GPA, and goals.
 
 ---
 STUDIVIZE SCREENSHOTS:
-![Studivize Screenshot](https://github.com/PRANAYPIPPOJI/Studivize/blob/main/Screenshot%202025-07-26%20203309.png?raw=true)
-![Studivize Screenshot](https://github.com/PRANAYPIPPOJI/Studivize/blob/main/Screenshot%202025-07-26%20203404.png?raw=true)
+![Studivize Screenshot](https://github.com/PRANAYPIPPOJI/Studivize/blob/main/screenshots/Screenshot%202025-07-26%20203309.png?raw=true)
+![Studivize Screenshot](https://github.com/PRANAYPIPPOJI/Studivize/blob/main/screenshots/Screenshot%202025-07-26%20203404.png?raw=true)
 
 
 ## 🔧 Technologies Used
