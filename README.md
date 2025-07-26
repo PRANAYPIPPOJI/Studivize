@@ -95,7 +95,7 @@ Connect on [LinkedIn](https://linkedin.com/in/pranay-pippoji-855979297)
 ---
 ## 👥 Collaborators
 
-- [Pranay Pippoji](https://github.com/your-username) — AI Integration, Frontend & Backend  
+- [PRANAYPIPPOJI](https://github.com/PRANAYPIPPOJI) — AI Integration, Frontend & Backend  
 - [HITHESHBALE](https://github.com/HITHESHBALE) — Research, Design, Testing
 
 ## 📝 License
